@@ -1,0 +1,634 @@
+window.SEO_COVERAGE_I18N_RESOURCES = {
+  "es": {
+    "translation": {
+      "meta": {
+        "title": "SEO + Content IA Coverage Engine — Haz crecer tu cobertura",
+        "description": "Compara tu sitio con cualquier dominio, descubre brechas de contenido y recibe un plan de mejora con IA. No es otro SEO dashboard: es un Coverage Engine."
+      },
+      "nav": {
+        "home": "Coverage Engine inicio",
+        "main": "Principal",
+        "language": "Idioma",
+        "concept": "Por qué Coverage Engine",
+        "how": "Cómo funciona",
+        "compare": "Vs competencia",
+        "value": "Qué obtienes",
+        "product": "Producto",
+        "plans": "Planes",
+        "manual": "Manual PDF",
+        "cta": "Abrir producto",
+        "menu_open": "Abrir menú",
+        "menu_close": "Cerrar menú"
+      },
+      "hero": {
+        "eyebrow": "White label P2L · Coverage Engine",
+        "title": "Haz crecer tu <em>cobertura</em>.",
+        "support": "Nuestro agente IA compara tu sitio con cualquier otro dominio del sector, descubre las brechas de contenido y encuentra las oportunidades que generan más visibilidad para tu negocio.",
+        "cta": "Entrar al Coverage Engine",
+        "cta_secondary": "Ver qué obtienes",
+        "cta_manual": "Manual PDF"
+      },
+      "plans": {
+        "tag": "Planes",
+        "title": "Créditos para auditar y comparar",
+        "lead": "1 crédito = 1 auditoría (crawl). La comparativa vs competencia usa 2. El plan IA y el DOFA de contenido usan cupo diario, no créditos de pack.",
+        "cta": "Empezar gratis",
+        "cards": [
+          {
+            "name": "Gratis",
+            "price": "$0",
+            "detail": "1 auditoría · hasta 50 URLs",
+            "note": "Bienvenida al crear cuenta"
+          },
+          {
+            "name": "Plan 1",
+            "price": "$80.000",
+            "detail": "4 auditorías · hasta 500 URLs",
+            "note": "USD $21"
+          },
+          {
+            "name": "Plan 2",
+            "price": "$160.000",
+            "detail": "10 auditorías · hasta 2.000 URLs",
+            "note": "USD $42"
+          },
+          {
+            "name": "Plan 3",
+            "price": "$300.000 / mes",
+            "detail": "20 auditorías / mes · hasta 5.000 URLs",
+            "note": "USD $79"
+          }
+        ]
+      },
+      "how": {
+        "tag": "Cómo funciona",
+        "title": "Cuatro pasos. Sin curva de aprendizaje.",
+        "lead": "Conecta Search Console, analiza tu dominio, deja que el Coverage Engine trabaje y recibe resultados accionables."
+      },
+      "analyze": {
+        "tag": "Analiza tu sitio",
+        "title": "Tu dominio y, si quieres, un competidor",
+        "lead": "Pega las URLs, pulsa Analizar y el motor hace el resto. Sin setup técnico."
+      },
+      "engine": {
+        "tag": "Coverage Engine",
+        "title": "El motor IA que une SEO, contenido e intención de búsqueda",
+        "lead": "Todo fluye hacia un solo núcleo: cobertura, schema, metadata, GSC y competencia — para decidir qué crecer primero."
+      },
+      "score": {
+        "tag": "Coverage Score",
+        "title": "Un score claro para priorizar",
+        "lead": "Ve hallazgos, prioridades y cobertura en un dashboard limpio — pensado para dueños de negocio, no solo para SEOs."
+      },
+      "plan_illust": {
+        "tag": "Plan IA",
+        "title": "Del motor al roadmap",
+        "lead": "Checklist, PDF y Markdown: un plan de crecimiento que puedes ejecutar y medir."
+      },
+      "benefits": {
+        "tag": "Beneficios",
+        "title": "Simple de usar. Potente al crecer.",
+        "lead": "Ilustramos lo que obtienes sin pedirte que seas experto en SEO.",
+        "items": [
+          {
+            "title": "Sin conocimientos SEO",
+            "text": "Pensado para marketing, pymes y agencias."
+          },
+          {
+            "title": "Resultados en minutos",
+            "text": "De la URL al plan sin semanas de setup."
+          },
+          {
+            "title": "Recomendaciones con IA",
+            "text": "Roadmap y DOFA listos para actuar."
+          },
+          {
+            "title": "Cobertura medible",
+            "text": "Score y gaps frente al mercado."
+          },
+          {
+            "title": "Comparación visual",
+            "text": "Tu sitio vs competencia, claro."
+          },
+          {
+            "title": "Reportes listos",
+            "text": "PDF y Markdown para compartir."
+          }
+        ]
+      },
+      "pitch": {
+        "tag": "La diferencia",
+        "title": "No somos otro sitio de medición de SEO.<br>Somos un motor de cobertura SEO y contenido con base en la realidad del mercado.",
+        "lead": "No compras un reporte más. Compras una forma de ver por qué tu competidor está mejor posicionado y qué hacer para alcanzarlo; también detectas tus fortalezas para tomar decisiones corporativas al respecto, qué ventajas competitivas tienes y qué oportunidades o amenazas del sector no estás aprovechando.",
+        "left": "SEO Dashboard",
+        "right": "Coverage Engine",
+        "rows": [
+          {
+            "left": "Muestra métricas",
+            "right": "Descubre oportunidades"
+          },
+          {
+            "left": "Encuentra errores",
+            "right": "Detecta brechas frente a la competencia"
+          },
+          {
+            "left": "Analiza tu sitio",
+            "right": "Compara cualquier dominio"
+          },
+          {
+            "left": "Entrega un reporte",
+            "right": "Genera un plan de mejora"
+          },
+          {
+            "left": "Dice qué está mal",
+            "right": "Explica cómo ganar cobertura"
+          }
+        ]
+      },
+      "value": {
+        "tag": "Qué logras",
+        "title": "<span class=\"value-title__l1\">Nuestro agente de IA compara tu sitio web con otro del sector</span><br><span class=\"value-title__l2\">y genera una estrategia de crecimiento impulsada por IA.</span>",
+        "lead": "Descubre todo lo que te falta para liderar tu mercado. Compara con la competencia, identifica brechas de contenido, obtén un score de cobertura, un análisis DOFA y un plan de mejora generado por IA.",
+        "cards": [
+          {
+            "title": "Coverage Score",
+            "text": "Mide qué tan bien cubres tu mercado."
+          },
+          {
+            "title": "Competitive Gaps",
+            "text": "Descubre lo que tu competencia ya está posicionando."
+          },
+          {
+            "title": "SWOT Analysis",
+            "text": "Identifica fortalezas, debilidades, oportunidades y amenazas."
+          },
+          {
+            "title": "Growth Plan",
+            "text": "Recibe acciones priorizadas para aumentar tu cobertura."
+          }
+        ]
+      },
+      "compare": {
+        "tag": "Negocio vs competencia",
+        "title": "Compara tu negocio con cualquier competidor",
+        "lead": "Descubre quién tiene mayor cobertura, identifica las brechas de contenido y recibe un plan de acción para ganar visibilidad.",
+        "f1_title": "Tu dominio",
+        "f1_text": "Analizamos tu cobertura, contenido y SEO.",
+        "f2_title": "Dominio competidor",
+        "f2_text": "Evaluamos el mismo conjunto de métricas para una comparación justa.",
+        "f3_title": "Brechas + DOFA",
+        "f3_text": "Detectamos fortalezas, debilidades, oportunidades y amenazas basadas en diferencias reales entre ambos sitios.",
+        "f4_title": "Plan de crecimiento",
+        "f4_text": "Generamos un PDF y un roadmap priorizado para aumentar tu cobertura y superar a la competencia."
+      },
+      "gsc": {
+        "tag": "Search Console",
+        "title": "Cruza tu GSC y cierra brechas de visibilidad",
+        "lead": "Sube el informe de Search Console y ve qué se indexa, qué falta y dónde puedes ganar más cobertura frente al mercado."
+      },
+      "cycle": {
+        "tag": "Cómo crece tu cobertura",
+        "title": "Un ciclo que no se queda en el reporte",
+        "lead": "Descubres, priorizas, actúas y vuelves a medir: cobertura que se acumula, no un PDF que se archiva.",
+        "steps": [
+          {
+            "name": "Discover",
+            "text": "Encuentra dominios, páginas y huecos de mercado."
+          },
+          {
+            "name": "Coverage Graph",
+            "text": "Visualiza tu cobertura frente a la competencia."
+          },
+          {
+            "name": "AI Planner",
+            "text": "Prioriza lo que más mueve visibilidad."
+          },
+          {
+            "name": "Content Generator",
+            "text": "Propone piezas y activos que cierran brechas."
+          },
+          {
+            "name": "Publisher",
+            "text": "Convierte el plan en backlog accionable."
+          },
+          {
+            "name": "Crawler",
+            "text": "Vuelve a medir cobertura y avance."
+          },
+          {
+            "name": "Learning",
+            "text": "Aprende del resultado y reinicia el ciclo."
+          }
+        ]
+      },
+      "product": {
+        "tag": "SEO Coverage Engine",
+        "title": "Compara tu negocio con cualquier competidor",
+        "lead": "Ingresa tu dominio y el de la competencia. Descubre quién tiene mayor cobertura, identifica las brechas de contenido y recibe un plan de acción para ganar visibilidad — con IA.",
+        "features": [
+          {
+            "icon": "🔎",
+            "text": "Coverage Score de tu sitio y del mercado"
+          },
+          {
+            "icon": "📈",
+            "text": "Visibilidad GSC + huecos de cobertura"
+          },
+          {
+            "icon": "⚔️",
+            "text": "Tu dominio vs cualquier competidor · DOFA"
+          },
+          {
+            "icon": "🤖",
+            "text": "Plan de mejora con IA · PDF y roadmap"
+          }
+        ]
+      },
+      "sections": {
+        "tag": "Dentro del producto",
+        "title": "Todo lo que necesitas para ganar cobertura",
+        "legend": "I = insumo que aportas · O = producto PDF que entrega el Coverage Engine",
+        "badge_i": "I",
+        "badge_o": "O",
+        "label_i": "Insumo",
+        "label_o": "Producto",
+        "fmt_money": "$",
+        "fmt_url": "URL",
+        "fmt_csv": "CSV",
+        "fmt_pdf": "PDF",
+        "engineer_badge": "Descarga los informes PDF generados por el sistema para que tu equipo de ingeniería los procese con las mejoras SEO necesarias en tu sitio web",
+        "cycle_title": "Ciclo de mejora continua",
+        "cycle_gsc": "Google Search Console",
+        "cycle_engine": "Coverage Engine",
+        "cycle_eng": "Ingeniería de datos",
+        "cycle_csv": "CSV Excel",
+        "cycle_pdf": "Informes PDF",
+        "cycle_seo": "H1 · H2 · tags · metatags",
+        "items": [
+          {
+            "kind": "i",
+            "fmt": "money",
+            "title": "Planes",
+            "text": "Insumo: créditos ($) para auditar, comparar y escalar."
+          },
+          {
+            "kind": "i",
+            "fmt": "url",
+            "title": "Tu dominio",
+            "text": "Insumo: URL del sitio (prerrequisito) para medir cobertura."
+          },
+          {
+            "kind": "i",
+            "fmt": "csv",
+            "title": "GSC",
+            "text": "Insumo: informe CSV / Excel de Search Console."
+          },
+          {
+            "kind": "o",
+            "fmt": "pdf",
+            "title": "Coverage Score",
+            "text": "Producto PDF: score y métricas del mercado."
+          },
+          {
+            "kind": "o",
+            "fmt": "pdf",
+            "title": "Vs competencia",
+            "text": "Producto PDF: brechas vs cualquier dominio."
+          },
+          {
+            "kind": "o",
+            "fmt": "pdf",
+            "title": "Plan IA",
+            "text": "Producto PDF: acciones priorizadas para crecer."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Listo para superar a tu competencia?",
+        "text": "Entra, escribe tu dominio y el de un competidor, y obtén score, brechas, DOFA y plan de mejora.",
+        "btn": "Ir al login SEO Coverage",
+        "manual": "Descargar manual PDF"
+      },
+      "footer": {
+        "blurb": "Coverage Engine: de un dominio a una estrategia de crecimiento impulsada por IA.",
+        "copy": "SEO + Content IA Coverage Engine · Powered by P2L"
+      }
+    }
+  },
+  "en": {
+    "translation": {
+      "meta": {
+        "title": "SEO + Content AI Coverage Engine — Grow your coverage",
+        "description": "Compare your site with any domain, find content gaps, and get an AI improvement plan. Not another SEO dashboard: a Coverage Engine."
+      },
+      "nav": {
+        "home": "Coverage Engine home",
+        "main": "Main",
+        "language": "Language",
+        "concept": "Why Coverage Engine",
+        "how": "How it works",
+        "compare": "Vs competitor",
+        "value": "What you get",
+        "product": "Product",
+        "plans": "Plans",
+        "manual": "Manual PDF",
+        "cta": "Open product",
+        "menu_open": "Open menu",
+        "menu_close": "Close menu"
+      },
+      "hero": {
+        "eyebrow": "P2L white label · Coverage Engine",
+        "title": "Grow your <em>coverage</em>.",
+        "support": "Our AI agent compares your site with any other domain in your sector, uncovers content gaps, and finds the opportunities that drive more visibility for your business.",
+        "cta": "Enter the Coverage Engine",
+        "cta_secondary": "See what you get",
+        "cta_manual": "Manual PDF"
+      },
+      "plans": {
+        "tag": "Plans",
+        "title": "Credits to audit and compare",
+        "lead": "1 credit = 1 audit (crawl). Competitor comparison uses 2. AI roadmap and content SWOT use a daily quota, not pack credits.",
+        "cta": "Start free",
+        "cards": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "detail": "1 audit · up to 50 URLs",
+            "note": "Welcome credit on signup"
+          },
+          {
+            "name": "Plan 1",
+            "price": "COP $80,000",
+            "detail": "4 audits · up to 500 URLs",
+            "note": "USD $21"
+          },
+          {
+            "name": "Plan 2",
+            "price": "COP $160,000",
+            "detail": "10 audits · up to 2,000 URLs",
+            "note": "USD $42"
+          },
+          {
+            "name": "Plan 3",
+            "price": "COP $300,000 / mo",
+            "detail": "20 audits / month · up to 5,000 URLs",
+            "note": "USD $79"
+          }
+        ]
+      },
+      "how": {
+        "tag": "How it works",
+        "title": "Four steps. No learning curve.",
+        "lead": "Connect Search Console, analyze your domain, let the Coverage Engine work, and get actionable results."
+      },
+      "analyze": {
+        "tag": "Analyze your site",
+        "title": "Your domain — and a competitor if you want",
+        "lead": "Paste the URLs, hit Analyze, and the engine does the rest. No technical setup."
+      },
+      "engine": {
+        "tag": "Coverage Engine",
+        "title": "The AI engine that unites SEO, content, and search intent",
+        "lead": "Everything flows into one core: coverage, schema, metadata, GSC, and competitors — so you know what to grow first."
+      },
+      "score": {
+        "tag": "Coverage Score",
+        "title": "A clear score to prioritize",
+        "lead": "See findings, priorities, and coverage in a clean dashboard — built for business owners, not only SEOs."
+      },
+      "plan_illust": {
+        "tag": "AI plan",
+        "title": "From the engine to the roadmap",
+        "lead": "Checklist, PDF, and Markdown: a growth plan you can execute and measure."
+      },
+      "benefits": {
+        "tag": "Benefits",
+        "title": "Simple to use. Powerful as you scale.",
+        "lead": "Visual cues for what you get — without needing SEO expertise.",
+        "items": [
+          {
+            "title": "No SEO expertise",
+            "text": "Built for marketing, SMBs, and agencies."
+          },
+          {
+            "title": "Ready in minutes",
+            "text": "From URL to plan without weeks of setup."
+          },
+          {
+            "title": "AI recommendations",
+            "text": "Roadmap and SWOT ready to act on."
+          },
+          {
+            "title": "Measurable coverage",
+            "text": "Score and gaps vs the market."
+          },
+          {
+            "title": "Visual comparison",
+            "text": "Your site vs competitors, clearly."
+          },
+          {
+            "title": "Ready reports",
+            "text": "PDF and Markdown to share."
+          }
+        ]
+      },
+      "pitch": {
+        "tag": "The difference",
+        "title": "We’re not another SEO measurement site.<br>We’re a SEO and content coverage engine grounded in market reality.",
+        "lead": "You’re not buying another report. You’re buying a way to see why a competitor is better positioned and what to do to catch up — plus you detect your strengths to make corporate decisions about them, your competitive advantages, and sector opportunities or threats you’re not addressing yet.",
+        "left": "SEO Dashboard",
+        "right": "Coverage Engine",
+        "rows": [
+          {
+            "left": "Shows metrics",
+            "right": "Uncovers opportunities"
+          },
+          {
+            "left": "Finds errors",
+            "right": "Detects gaps vs competitors"
+          },
+          {
+            "left": "Analyzes your site",
+            "right": "Compares any domain"
+          },
+          {
+            "left": "Delivers a report",
+            "right": "Generates a growth plan"
+          },
+          {
+            "left": "Says what’s wrong",
+            "right": "Explains how to win coverage"
+          }
+        ]
+      },
+      "value": {
+        "tag": "What you get",
+        "title": "<span class=\"value-title__l1\">Our AI agent compares your website with another in your sector</span><br><span class=\"value-title__l2\">and generates an AI-powered growth strategy.</span>",
+        "lead": "Discover everything you’re missing to lead your market. Compare with competitors, identify content gaps, get a coverage score, a SWOT analysis, and an AI-generated growth plan.",
+        "cards": [
+          {
+            "title": "Coverage Score",
+            "text": "Measure how well you cover your market."
+          },
+          {
+            "title": "Competitive Gaps",
+            "text": "See what your competitors already rank for."
+          },
+          {
+            "title": "SWOT Analysis",
+            "text": "Identify strengths, weaknesses, opportunities, and threats."
+          },
+          {
+            "title": "Growth Plan",
+            "text": "Get prioritized actions to grow your coverage."
+          }
+        ]
+      },
+      "compare": {
+        "tag": "Business vs competitor",
+        "title": "Compare your business with any competitor",
+        "lead": "See who has stronger coverage, spot content gaps, and get an action plan to win visibility.",
+        "f1_title": "Your domain",
+        "f1_text": "We analyze your coverage, content, and SEO.",
+        "f2_title": "Competitor domain",
+        "f2_text": "We evaluate the same metrics for a fair comparison.",
+        "f3_title": "Gaps + SWOT",
+        "f3_text": "We surface strengths, weaknesses, opportunities, and threats from real differences between both sites.",
+        "f4_title": "Growth plan",
+        "f4_text": "We generate a PDF and a prioritized roadmap to grow coverage and overtake the competitor."
+      },
+      "gsc": {
+        "tag": "Search Console",
+        "title": "Connect GSC and close visibility gaps",
+        "lead": "Upload your Search Console export and see what’s indexed, what’s missing, and where you can win more coverage."
+      },
+      "cycle": {
+        "tag": "How coverage grows",
+        "title": "A loop that doesn’t stop at the report",
+        "lead": "Discover, prioritize, act, and measure again: coverage that compounds — not a PDF that gets filed away.",
+        "steps": [
+          {
+            "name": "Discover",
+            "text": "Find domains, pages, and market gaps."
+          },
+          {
+            "name": "Coverage Graph",
+            "text": "See your coverage vs the competition."
+          },
+          {
+            "name": "AI Planner",
+            "text": "Prioritize what moves visibility most."
+          },
+          {
+            "name": "Content Generator",
+            "text": "Propose assets that close gaps."
+          },
+          {
+            "name": "Publisher",
+            "text": "Turn the plan into an actionable backlog."
+          },
+          {
+            "name": "Crawler",
+            "text": "Re-measure coverage and progress."
+          },
+          {
+            "name": "Learning",
+            "text": "Learn from results and restart the cycle."
+          }
+        ]
+      },
+      "product": {
+        "tag": "SEO Coverage Engine",
+        "title": "Compare your business with any competitor",
+        "lead": "Enter your domain and a competitor’s. See who has stronger coverage, spot content gaps, and get an action plan to win visibility — with AI.",
+        "features": [
+          {
+            "icon": "🔎",
+            "text": "Coverage Score for your site and market"
+          },
+          {
+            "icon": "📈",
+            "text": "GSC visibility + coverage gaps"
+          },
+          {
+            "icon": "⚔️",
+            "text": "Your domain vs any competitor · SWOT"
+          },
+          {
+            "icon": "🤖",
+            "text": "AI growth plan · PDF and roadmap"
+          }
+        ]
+      },
+      "sections": {
+        "tag": "Inside the product",
+        "title": "Everything you need to win coverage",
+        "legend": "I = input you bring · O = PDF output the Coverage Engine delivers",
+        "badge_i": "I",
+        "badge_o": "O",
+        "label_i": "Input",
+        "label_o": "Output",
+        "fmt_money": "$",
+        "fmt_url": "URL",
+        "fmt_csv": "CSV",
+        "fmt_pdf": "PDF",
+        "engineer_badge": "Download the PDF reports generated by the system so your engineering team can apply the SEO improvements your site needs",
+        "cycle_title": "Continuous improvement loop",
+        "cycle_gsc": "Google Search Console",
+        "cycle_engine": "Coverage Engine",
+        "cycle_eng": "Data engineering",
+        "cycle_csv": "Excel CSV",
+        "cycle_pdf": "PDF reports",
+        "cycle_seo": "H1 · H2 · tags · metatags",
+        "items": [
+          {
+            "kind": "i",
+            "fmt": "money",
+            "title": "Plans",
+            "text": "Input: credits ($) to audit, compare, and scale."
+          },
+          {
+            "kind": "i",
+            "fmt": "url",
+            "title": "Your domain",
+            "text": "Input: site URL (prerequisite) to measure coverage."
+          },
+          {
+            "kind": "i",
+            "fmt": "csv",
+            "title": "GSC",
+            "text": "Input: Search Console CSV / Excel report."
+          },
+          {
+            "kind": "o",
+            "fmt": "pdf",
+            "title": "Coverage Score",
+            "text": "PDF output: score and market metrics."
+          },
+          {
+            "kind": "o",
+            "fmt": "pdf",
+            "title": "Vs competitor",
+            "text": "PDF output: gaps vs any domain."
+          },
+          {
+            "kind": "o",
+            "fmt": "pdf",
+            "title": "AI plan",
+            "text": "PDF output: prioritized growth actions."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to outpace your competitor?",
+        "text": "Sign in, enter your domain and a competitor’s, and get score, gaps, SWOT, and a growth plan.",
+        "btn": "Go to SEO Coverage login",
+        "manual": "Download manual PDF"
+      },
+      "footer": {
+        "blurb": "Coverage Engine: from one domain to an AI-powered growth strategy.",
+        "copy": "SEO + Content AI Coverage Engine · Powered by P2L"
+      }
+    }
+  }
+};

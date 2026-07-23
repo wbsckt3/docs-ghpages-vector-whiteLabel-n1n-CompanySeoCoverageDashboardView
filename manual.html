@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manual de usuario — SEO + Content IA Coverage Engine: flujo, acordeones, créditos e interpretación." />
+  <title>Manual de usuario — SEO Coverage Engine</title>
+  <link rel="icon" href="assets/logo-p2l.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #0f172a;
+      --muted: #475569;
+      --teal: #0d9488;
+      --yc: #FF6600;
+      --line: #e2e8f0;
+      --bg: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+    .toolbar {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between;
+      padding: 12px 20px;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+    .toolbar__brand { display: flex; align-items: center; gap: 10px; font-weight: 800; }
+    .toolbar__brand img { width: 32px; height: 32px; border-radius: 8px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 10px 16px; border-radius: 12px; font-weight: 700; font-size: 0.92rem;
+      text-decoration: none; border: none; cursor: pointer; color: #fff;
+      background: linear-gradient(135deg, #ff8533, var(--yc));
+    }
+    .btn--ghost {
+      background: #fff; color: var(--teal); border: 2px solid #99f6e4;
+    }
+    .sheet {
+      max-width: 820px;
+      margin: 28px auto 64px;
+      padding: 40px 44px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.75rem; letter-spacing: -0.03em; }
+    h2 {
+      margin: 32px 0 12px; font-size: 1.2rem; letter-spacing: -0.02em;
+      color: var(--teal); border-bottom: 2px solid #ccfbf1; padding-bottom: 6px;
+    }
+    h3 { margin: 18px 0 8px; font-size: 1.02rem; }
+    p, li { color: var(--muted); }
+    .lead { font-size: 1.05rem; color: var(--ink); margin: 0 0 20px; }
+    .chip {
+      display: inline-block; margin-bottom: 12px;
+      padding: 4px 10px; border-radius: 999px;
+      border: 1px solid rgba(255,102,0,0.45); color: var(--yc);
+      font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+    }
+    ol.flow { padding-left: 1.2rem; }
+    ol.flow li { margin: 6px 0; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 0.9rem;
+    }
+    th, td {
+      border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top;
+    }
+    th { background: #f0fdfa; color: var(--teal); font-weight: 800; }
+    .note {
+      margin: 16px 0; padding: 14px 16px; border-radius: 12px;
+      background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412; font-size: 0.92rem;
+    }
+    .footer-note { margin-top: 36px; font-size: 0.82rem; color: #94a3b8; }
+    @media print {
+      body { background: #fff; }
+      .toolbar { display: none !important; }
+      .sheet {
+        margin: 0; padding: 0; border: 0; border-radius: 0; max-width: none;
+      }
+      a { color: inherit; text-decoration: none; }
+      h2 { break-after: avoid; }
+      table, .note { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <div class="toolbar__brand">
+      <img src="assets/logo-p2l.png" alt="P2L" />
+      <span>Manual SEO Coverage</span>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <a class="btn--ghost btn" href="./">Volver al PLG</a>
+      <button type="button" class="btn" id="printBtn">Descargar / imprimir PDF</button>
+    </div>
+  </div>
+
+  <article class="sheet">
+    <span class="chip">Manual de usuario</span>
+    <h1>SEO + Content IA Coverage Engine</h1>
+    <p class="lead">
+      Cómo crear cuenta, cargar información en cada acordeón e interpretar resultados.
+      Producto: <strong>CompanySeoCoverageDashboardView</strong> · Login:
+      <a href="https://www.refactorii.com/p2l-tenant/login/seo-coverage-dashboard/es">seo-coverage-dashboard/es</a>
+    </p>
+
+    <h2>1. Flujo principal</h2>
+    <ol class="flow">
+      <li><strong>Login Google</strong> en el white label SEO Coverage.</li>
+      <li><strong>Empresa automática:</strong> plan Gratis + 1 crédito de auditoría (+ dominio de ejemplo).</li>
+      <li><strong>Registrar tu dominio</strong> (sitio completo, no una sola página).</li>
+      <li><strong>Opcional:</strong> importar CSV de Google Search Console.</li>
+      <li><strong>Auditar ahora</strong> (consume 1 crédito) → estados queued → running → done.</li>
+      <li>Revisar <strong>Coverage Score</strong>, <strong>Prioridad</strong> y <strong>Hallazgos</strong>.</li>
+      <li>Opcional: <strong>Plan de mejora (IA)</strong> (cupo diario, no gasta créditos de crawl).</li>
+      <li>Vs competencia: <strong>Comparativa 2 URLs</strong> (2 créditos) → DOFA técnico + PDF/.md.</li>
+      <li>Luego <strong>DOFA de contenido (IA)</strong> (cupo diario) → PDF editorial.</li>
+    </ol>
+    <div class="note">
+      <strong>Regla de oro:</strong> 1 crédito = 1 crawl. Comparativa = 2 créditos.
+      Plan IA y DOFA contenido no descuentan créditos de pack; solo cupo diario de IA.
+    </div>
+
+    <h2>2. Orden recomendado</h2>
+    <p>Login → (comprar créditos si vas a comparar) → Dominio → CSV GSC → Auditar → Score + Prioridad + Hallazgos → GSC → Plan IA → Comparativa → DOFA contenido → re-auditar y ver Histórico.</p>
+
+    <h2>3. Cada acordeón: cargar e interpretar</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Acordeón</th>
+          <th>Cómo cargar</th>
+          <th>Cómo interpretarlo</th>
+          <th>Consume</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Dominio a auditar</strong></td>
+          <td>URL → Registrar. Opcional CSV GSC. Luego Auditar ahora.</td>
+          <td>Sitio entero. Estados queued → running → done | failed.</td>
+          <td>0 / 1 al auditar</td>
+        </tr>
+        <tr>
+          <td><strong>Comparativa vs competencia</strong></td>
+          <td>URL negocio + URL competencia → Auditar y comparar.</td>
+          <td>DOFA técnico (scores/hallazgos). PDF + Plan .md.</td>
+          <td>2 créditos</td>
+        </tr>
+        <tr>
+          <td><strong>Cobertura DOFA de contenido</strong></td>
+          <td>Requiere comparativa done → Analizar con IA.</td>
+          <td>Temas, huecos editoriales, plan de contenido.</td>
+          <td>Cupo IA (~8/día)</td>
+        </tr>
+        <tr>
+          <td><strong>Planes</strong></td>
+          <td>Comprar pack ePayco (COP en ES / USD en EN).</td>
+          <td>Créditos restantes = crawls disponibles.</td>
+          <td>Añade saldo</td>
+        </tr>
+        <tr>
+          <td><strong>Coverage Score</strong></td>
+          <td>Tras auditoría done. PDF si aplica.</td>
+          <td>0–100: sitemap/title/desc/canonical/H1/alt.</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>Cobertura GSC</strong></td>
+          <td>CSV GSC + auditoría done.</td>
+          <td>Diff GSC ↔ sitemap ↔ crawl.</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>Histórico de score</strong></td>
+          <td>Automático con cada run done.</td>
+          <td>Tendencia tras cambios SEO.</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>Prioridad</strong></td>
+          <td>Sale de la auditoría agregada.</td>
+          <td>Más estrellas + count = atacar primero.</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>Plan de mejora (IA)</strong></td>
+          <td>Generar plan tras auditoría done.</td>
+          <td>Roadmap por fases + checklist de tareas.</td>
+          <td>Cupo IA (~10/día)</td>
+        </tr>
+        <tr>
+          <td><strong>Hallazgos por URL</strong></td>
+          <td>Filtros severidad / dimensión.</td>
+          <td>Evidencia URL a URL.</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><strong>Historial de auditorías</strong></td>
+          <td>Clic en un run para seleccionarlo.</td>
+          <td>La corrida resaltada alimenta score/GSC/hallazgos.</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>4. Técnico vs contenido vs plan IA</h2>
+    <table>
+      <thead>
+        <tr><th>Producto</th><th>Responde</th><th>Consume</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>DOFA técnico (Comparativa)</td>
+          <td>¿Quién está más sano técnicamente?</td>
+          <td>2 créditos crawl</td>
+        </tr>
+        <tr>
+          <td>DOFA contenido (IA)</td>
+          <td>¿Qué temas cubre cada uno y dónde hay huecos?</td>
+          <td>Cupo contentDofa</td>
+        </tr>
+        <tr>
+          <td>Plan de mejora (IA)</td>
+          <td>¿Qué backlog priorizado ejecuto en mi sitio?</td>
+          <td>Cupo plan</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Planes y créditos</h2>
+    <table>
+      <thead>
+        <tr><th>Plan</th><th>Créditos</th><th>maxUrls</th><th>Precio COP</th><th>Precio USD</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Gratis (bienvenida)</td><td>1</td><td>50</td><td>$0</td><td>$0</td></tr>
+        <tr><td>Plan 1</td><td>4</td><td>500</td><td>$80.000</td><td>$21</td></tr>
+        <tr><td>Plan 2</td><td>10</td><td>2.000</td><td>$160.000</td><td>$42</td></tr>
+        <tr><td>Plan 3 / mes</td><td>20</td><td>5.000</td><td>$300.000</td><td>$79</td></tr>
+      </tbody>
+    </table>
+
+    <h2>6. Cómo leer el Coverage Score</h2>
+    <table>
+      <thead>
+        <tr><th>Dimensión</th><th>Peso</th><th>Qué mirar</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>URLs en sitemap</td><td>20%</td><td>Descubrimiento / cobertura declarada</td></tr>
+        <tr><td>Meta title válido</td><td>20%</td><td>Títulos presentes y útiles</td></tr>
+        <tr><td>Meta description</td><td>20%</td><td>Snippets en SERP</td></tr>
+        <tr><td>Canonical correcto</td><td>15%</td><td>Evitar duplicados</td></tr>
+        <tr><td>H1 presente</td><td>15%</td><td>Jerarquía de página</td></tr>
+        <tr><td>Imágenes con alt</td><td>10%</td><td>Accesibilidad / imagen SEO</td></tr>
+      </tbody>
+    </table>
+
+    <p class="footer-note">
+      © SEO + Content IA Coverage Engine · Powered by P2L ·
+      Landing: docs/gh-pages-seo-coverage-engine
+    </p>
+  </article>
+
+  <script>
+    document.getElementById('printBtn').addEventListener('click', function () {
+      window.print();
+    });
+    if (new URLSearchParams(location.search).get('print') === '1') {
+      window.addEventListener('load', function () { setTimeout(function () { window.print(); }, 250); });
+    }
+  </script>
+</body>
+</html>
