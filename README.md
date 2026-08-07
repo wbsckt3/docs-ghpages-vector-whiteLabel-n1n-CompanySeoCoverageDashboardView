@@ -14,7 +14,7 @@ Presentación del white label **Coverage Engine** (paralela a `docs/gh-pages-avl
 - Import GSC y diff GSC ↔ sitemap ↔ crawl
 - Ciclo Discover → … → Learning
 - Features y secciones del dashboard white label
-- Logo P2L + Y invertida + combinator (misma marca que el login)
+- Logo P2L en header + Y invertida naranja `#FF6600` en hero (misma marca que el login; sin texto “combinator”)
 - **Planes** (Gratis / Plan 1–3) alineados al dashboard ePayco
 - **Manual de usuario** (`manual.html`) con botón “Manual PDF” (imprimir / guardar PDF)
 - Biblioteca de ilustraciones isométricas (mismo estilo) en `assets/illustrations/`:
